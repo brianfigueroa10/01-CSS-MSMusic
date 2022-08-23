@@ -34,6 +34,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 40px;
 }
 
 .nav_links {
@@ -50,6 +51,14 @@ header{
 .nav_links a:hover {
     color: #ecdda2;
     transition: .5s;
+}
+.cart-icon {
+    display: flex;
+    border: 1px solid #eafff8;
+    padding: 4px 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 35px;
 }
 
 #hero {
