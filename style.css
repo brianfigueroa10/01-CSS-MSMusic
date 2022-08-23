@@ -19,7 +19,7 @@ header{
     justify-content: space-between;
     align-items: center;
     /*background-color: #001219;*/
-    background: linear-gradient(to bottom, #04293A, #020d1e);
+    background: linear-gradient(to bottom, #04293A, #000102);
     flex-direction: row;
     padding: 0px 60px;
     width: 100%;
