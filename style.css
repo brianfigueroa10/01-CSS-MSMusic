@@ -18,7 +18,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*background-color: #001219;*/
     background: linear-gradient(to bottom, #04293A, #000102);
     flex-direction: row;
     padding: 0px 60px;
@@ -42,8 +41,8 @@ header{
     gap: 40px;
 }
 
-.nav_links li a {
-    font-size: 17px;
+.nav_links a {
+    font-size: 15px;
     letter-spacing: 1px;
     color: #eafff8;
 }
@@ -58,7 +57,7 @@ header{
     padding: 4px 6px;
     border-radius: 10px;
     cursor: pointer;
-    height: 35px;
+    height: 30px;
 }
 
 .menu-button {
@@ -84,66 +83,39 @@ header{
     display: none;
 }
 
-.toogle {
-    display: none;
-    text-align: center;
-    background: #373739;
-    border-radius: 7px;
-    padding: 20px;
-    width: 150px;
-    margin: 10px auto;
-}
-
-.toogle li {
-    list-style: none;
-    display: block;
-    padding: 10px;
-    color: #9c9ca0;
-}
-
-#menu-toggle:checked + .toogle {
-    display: block;
-}
-
 #hero {
     display: flex;
     justify-content: center;
-    padding: 30px 0px;
+    align-items: center;
+    padding: 50px 70px;
+    
 }
 
 .hero-info {
     display: flex;
-    width: 80%;
-    align-items: center;    
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 20px;
-}
-
-.hero-info-left{
-    display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 450px;
-    padding-left: 15px;
+    width: 700px;
     
 }
-.hero-info-left h1 {
+.hero-info h1 {
     font-weight:900;
     font-size: 44px;
+    width: 60%;
     background: linear-gradient(to top, #8fb2ba, #3595a8);
     -webkit-background-clip: text;
     color: transparent;
 }
 
-.hero-info-left p {
+.hero-info p {
     font-weight: 600;
+    width: 80%;
     color: #9c9ca0;
 }
 
 .hero-info-botton{
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .hero-info-botton a {
@@ -173,13 +145,12 @@ header{
 }
 
 .hero-info-img{
-    width: 400px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     cursor: pointer;
-    opacity: 3;
-    padding: 12px;
+    padding: 1px;
 }
 
 .hero-info-img img {
