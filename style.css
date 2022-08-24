@@ -18,7 +18,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to bottom, #04293A, #000102);
+    background: linear-gradient(to bottom, #04293A, #000103);
     flex-direction: row;
     padding: 0px 60px;
     width: 100%;
@@ -58,29 +58,6 @@ header{
     border-radius: 10px;
     cursor: pointer;
     height: 30px;
-}
-
-.menu-button {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 40px;
-    height: 36px;
-    padding: 10px;
-    border-radius: 7px;
-    background: #8fb2ba;
-    cursor: pointer;
-}
-
-.menu-button span {
-    width: 40px;
-    height: 4px;
-    background-color: #eafff8;
-}
-
-#menu-toggle, .menu-label {
-    display: none;
 }
 
 #hero {
