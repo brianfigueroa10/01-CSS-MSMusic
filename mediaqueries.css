@@ -1,10 +1,8 @@
 @media (max-width: 992px) {
-    body{
-        height: 100vh;
-    }
-
     .navbar {
         gap: 10px;
+        padding: 0;
+        margin: 0;
     }
 
     .nav_links {
@@ -26,7 +24,7 @@
     }
 
     .nav_links a {
-        font-size: 25px;
+        font-size: 16px;
     }
 
     .navbar i {
@@ -75,15 +73,26 @@
         max-width: 85%;
     }
 
-    .text-card{
-        max-width: 85%;
+
+
+    #cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }    
+    
+    .text-card {
+        max-width: 80%;
+
     }
 
-    .cards-container{
-        gap:30px
-    }
-    #cards {
+
+    .cards-container {
+        gap: 30px;
         max-width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #contact {
@@ -91,7 +100,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap:15px;
+        gap: 15px;
     }
 
     .contact-directions {
@@ -99,10 +108,12 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        gap:55px;
+        gap: 55px;
     }
 
-    .contact-info h3, .contact-info i, h2{
+    .contact-info h3,
+    .contact-info i,
+    h2 {
         display: flex;
         justify-content: center;
     }
@@ -112,6 +123,7 @@
         display: flex;
         justify-content: center;
     }
+
     .contact-img {
         gap: 15px;
     }
@@ -120,13 +132,19 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        justify-content: center;
     }
 
-    .footer-links, p, span {
+    .footer-links {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap:15px;
+        gap: 15px;
+    }
+
+    .copyright {
+        max-width: 80%;
+        
     }
 
 }
