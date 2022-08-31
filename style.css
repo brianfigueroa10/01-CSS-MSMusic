@@ -7,24 +7,24 @@
     text-decoration: none;
     list-style-type: none;
     font-family: 'Titillium Web',
-    sans-serif;
+        sans-serif;
 }
 
 body {
-    background-color: #020202;
+    background: linear-gradient(to right, #041922, #000102);
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*background-color: #001219;*/
     background: linear-gradient(to bottom, #04293A, #000102);
     flex-direction: row;
     padding: 0px 60px;
     width: 100%;
     height: 50px;
 }
+
 .logo {
     height: 50%;
     cursor: pointer;
@@ -42,64 +42,86 @@ header{
     gap: 40px;
 }
 
-.nav_links li a {
-    font-size: 17px;
+.nav_links a {
+    font-size: 15px;
     letter-spacing: 1px;
     color: #eafff8;
 }
 
 .nav_links a:hover {
-    color: #ecdda2;
+    color: #FFAE00;
     transition: .5s;
 }
+
 .cart-icon {
     display: flex;
     border: 1px solid #eafff8;
     padding: 4px 6px;
     border-radius: 10px;
     cursor: pointer;
-    height: 35px;
+    height: 30px;
+}
+
+.menu-button {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40px;
+    height: 36px;
+    padding: 10px;
+    border-radius: 7px;
+    background: #8fb2ba;
+    cursor: pointer;
+}
+
+.menu-button span {
+    width: 40px;
+    height: 4px;
+    background-color: #eafff8;
+}
+
+#menu-toggle,
+.navbar i {
+    display: none;
 }
 
 #hero {
     display: flex;
     justify-content: center;
-    padding: 30px 0px;
+    align-items: center;
+    padding: 0 5%;
+
+
 }
 
 .hero-info {
     display: flex;
-    width: 80%;
-    align-items: center;    
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 20px;
-}
-
-.hero-info-left{
-    display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 450px;
-    padding-left: 15px;
-    
+    width: 700px;
+
 }
-.hero-info-left h1 {
-    font-weight:900;
+
+.hero-info h1 {
+    font-weight: 900;
     font-size: 44px;
+    width: 60%;
     background: linear-gradient(to top, #8fb2ba, #3595a8);
     -webkit-background-clip: text;
     color: transparent;
 }
 
-.hero-info-left p {
+.hero-info p {
     font-weight: 600;
+    width: 80%;
     color: #9c9ca0;
 }
 
-.hero-info-botton{
+.hero-info-botton ul{
     display: flex;
-    gap: 20px;
+    flex-direction: row;
+    gap: 30px;
 }
 
 .hero-info-botton a {
@@ -107,52 +129,215 @@ header{
     text-align: center;
     border-radius: 25px;
     padding: 3px 16px;
-}
-
-.hero-info-botton a:first-child{
-    background: radial-gradient(#04293A, #194354);
-    color:#a9b1b4;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
-.hero-info-botton a:last-child {
     border: 2px solid #373739;
     color: #a9b1b4;
-    font-weight: 600;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+.hero-info-botton li:first-child>a{
+    background: rgb(255, 255, 255);
+    color: #3595a8;
+    font-weight: 800;
     letter-spacing: 1px;
 }
 
 .hero-info-botton a:hover {
-    color: #ffffff;
-    transition: .5;
+    color: #eafff8;
+}
+.hero-info-botton li:first-child>a:hover {
+    color: #000102;
 }
 
-.hero-info-img{
-    width: 400px;
+
+.hero-info-img {
+    width: 600px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     cursor: pointer;
-    opacity: 3;
-    padding: 12px;
+    padding: 1px;
 }
 
 .hero-info-img img {
     border-radius: 10px;
 }
 
-#text-info{
-    padding: 30px 0px;
+#text-info {
+    padding: 40px 5%;
     display: flex;
     justify-content: center;
 }
 
-.text-info-div {
-    max-width: 67%;
-    background-color: #155360;
+#text-info p {
+    background-color: #14282c;
     padding: 15px;
     border-radius: 10px;
     color: #d4e1e3;
+    font-size: 17px;
+    padding: 10px 15px;
 }
+
+#cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    color:#a9b1b4;
+    justify-content: center;
+}
+
+#cards h2 {
+     color:#22c2c3;
+}
+
+.text-card {
+    width: 700px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 0;
+    gap: 10px;
+
+}
+.cards-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    padding: 30px 10px;
+    background: radial-gradient( #00090ef3, #09121c);
+    border: 2px solid #98E5F5;
+    border-radius: 10px;
+        
+}
+.cards-info img {
+    width: 50px;
+}
+
+.cards-info h3 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cards-info p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 25px 25px 30px;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 600px;
+
+}
+
+.contact-info h2 {
+    font-weight: 700;
+    color:#22c2c3;
+    padding: 0 30%;
+}
+
+.contact-directions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.contact-img {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+    padding: 1px;
+}
+
+
+
+.contact-info h3 {
+    color: #d4e1e3;
+}
+
+.contact-info i{
+    display: flex;
+    color: #9c9ca0;
+}
+
+.contact-info h4 {
+    padding: 0 15px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #9c9ca0;
+}
+
+.contact-social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:30px;
+}
+.contact-social a {
+    color: #a9b1b4;
+}
+
+.contact-social a:hover{
+    color: #eafff8;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 0;
+}
+
+.footer-links{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+}
+
+footer a {
+    font-weight: 300;
+    font-size: 18px;
+    color: #a9b1b4;
+}
+
+footer a:hover {
+    color:#FFAE00;
+}
+
+footer p{
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+}
+footer span{
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
 
