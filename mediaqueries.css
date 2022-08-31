@@ -82,6 +82,9 @@
     .cards-container{
         gap:30px
     }
+    #cards {
+        max-width: 80%;
+    }
 
     #contact {
         display: flex;
@@ -121,6 +124,8 @@
 
     .footer-links, p, span {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         gap:15px;
     }
 
