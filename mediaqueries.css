@@ -71,6 +71,10 @@
 
     #text-info p {
         max-width: 85%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
     }
 
 
@@ -83,6 +87,10 @@
     
     .text-card {
         max-width: 80%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
 
     }
 
@@ -128,13 +136,6 @@
         gap: 15px;
     }
 
-    footer {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        justify-content: center;
-    }
-
     .footer-links {
         flex-direction: column;
         align-items: center;
@@ -144,6 +145,10 @@
 
     .copyright {
         max-width: 80%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
         
     }
 
