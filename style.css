@@ -6,12 +6,13 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-    font-family: 'Titillium Web',
-        sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
+
 
 body {
     background: linear-gradient(to right, #041922, #000102);
+    background: white;
 }
 
 header {
@@ -23,6 +24,10 @@ header {
     padding: 0px 60px;
     width: 100%;
     height: 50px;
+}
+main {
+    width: 100%;
+    height: auto;
 }
 
 .logo {
@@ -90,14 +95,14 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 0;
+    padding: 15px 85px;
 }
 
 .hero-info {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 700px;
+    max-width: 700px;
 
 }
 
@@ -151,7 +156,7 @@ header {
 
 
 .hero-info-img {
-    width: 600px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -164,7 +169,7 @@ header {
 }
 
 #text-info {
-    padding: 40px 5%;
+    padding: 40px 20%;
     display: flex;
     justify-content: center;
 }
@@ -248,7 +253,7 @@ header {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    width: 600px;
+    max-width: 600px;
 
 }
 
@@ -266,7 +271,7 @@ header {
 }
 
 .contact-img {
-    width: 300px;
+    /*width: 300px;*/
     display: flex;
     flex-direction: column;
     gap: 20px;

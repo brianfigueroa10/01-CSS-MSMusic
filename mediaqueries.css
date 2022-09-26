@@ -4,8 +4,6 @@
     }
     .navbar {
         gap: 10px;
-        padding: 0;
-        margin: 0;
     }
 
     .nav_links {
@@ -15,7 +13,6 @@
         top: 65px;
         left: 5%;
         right: 5%;
-        /*width: 80%;*/
         background: linear-gradient(to right, #041922, #000102);
         border: 2px solid #ecdda2;
         border-top: none;
@@ -137,7 +134,7 @@
     }
 
     .contact-img {
-        gap: 15px;
+        display: none;
     }
 
     .footer-links {
@@ -152,8 +149,40 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        gap: 30px;
-        
+        gap: 30px;     
+    }
+}
+
+@media (min-width: 600px) {
+    header,main {
+        width: 100%;
+        justify-content: center;
+
+    }
+    .navbar{
+        width: 100%;
+    }
+    .logo {
+        display: none;
+    }
+    
+}
+@media (max-width: 576px){
+    .hero-info h1{
+        font-size: 35px;
+    }
+    .hero-info-botton ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+    #text-info{
+        padding: 10px;
+    }
+    #text-info p {
+        font-size: 13;
     }
 
+    .contact-img {
+        display: none;
+    }
 }
