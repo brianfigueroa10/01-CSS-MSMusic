@@ -152,21 +152,6 @@
         gap: 30px;     
     }
 }
-
-@media (min-width: 600px) {
-    header,main {
-        width: 100%;
-        justify-content: center;
-
-    }
-    .navbar{
-        width: 100%;
-    }
-    .logo {
-        display: none;
-    }
-    
-}
 @media (max-width: 576px){
     .hero-info h1{
         font-size: 35px;

@@ -12,7 +12,6 @@
 
 body {
     background: linear-gradient(to right, #041922, #000102);
-    background: white;
 }
 
 header {
@@ -271,7 +270,7 @@ main {
 }
 
 .contact-img {
-    /*width: 300px;*/
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     gap: 20px;
