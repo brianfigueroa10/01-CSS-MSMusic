@@ -23,10 +23,6 @@ Este proyecto es una página de aterrizaje sencilla para una tienda de música l
 
 2. **Abrir el archivo `index.html` en tu navegador web favorito.**
 
-## Captura de Pantalla
-
-![Captura de Pantalla](ruta/a/tu/captura-de-pantalla.png)
-
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas contribuir a este proyecto, por favor sigue estos pasos:
